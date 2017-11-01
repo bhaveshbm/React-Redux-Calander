@@ -1,0 +1,75 @@
+
+.day {
+  display: inline;
+}
+
+table {
+  width: 100%;
+  margin-top: 10px;
+}
+
+td {
+  width: 14%;
+  border: solid 1px;
+  text-align: center;
+}
+
+td.calendarCell {
+  height: 100px;
+  text-align: left;
+  vertical-align: top;
+  padding-left: 5px;
+}
+
+td.notCurrentMonth {
+  background-color: gray;
+}
+
+.monthTitle {
+  font-weight: bold;
+  margin: 15px;
+}
+
+.react-datepicker__time-container .react-datepicker__time .react-datepicker__time-box {
+  width: 100% !important;
+}
+
+form {
+  border: solid 1px;
+  position: absolute;
+  z-index: 100;
+  top: 25%;
+  background-color: white;
+  left: 30%;
+  width: 350px;
+}
+
+form label {
+  display: block;
+  margin: 10px;
+}
+
+label div {
+  display: inline-block;
+}
+.hidePopup {
+  display: none;
+}
+.showPopup {
+  display: block;
+}
+.remiderList {
+  overflow: auto;
+}
+.closeButton {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  background-color: black;
+  color: white;
+}
+.submit {
+  margin: 10px;
+  background: rgb(156, 156, 207);
+  color: white;
+}
