@@ -1,8 +1,12 @@
 {
-  "name": "p2klyyz8m",
+  "name": "6xqx8km16r",
   "description": null,
-  "version": "0.0.6",
+  "version": "0.0.51",
   "dependencies": {
+    "redux-thunk": "2.2.0",
+    "redux-immutable-state-invariant": "2.1.0",
+    "redux": "3.7.2",
+    "react-redux": "5.0.6",
     "react-dom": "16.0.0",
     "react-datepicker": "0.57.0",
     "react": "16.0.0",
